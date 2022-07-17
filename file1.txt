@@ -1,5 +1,5 @@
 hello there!!
-hi
+hi!
 <<<<<<< HEAD
 modified for ex 3
 =======
