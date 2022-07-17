@@ -1,0 +1,423 @@
+
+Tarun@LAPTOP-NK9U8BBT MINGW64 /g/GIT_ASSIGNMENT/Git_training
+$ git version
+git version 2.36.1.windows.1
+
+Tarun@LAPTOP-NK9U8BBT MINGW64 /g/GIT_ASSIGNMENT/Git_training
+$ git config --global user.name "Akash_M_Reddy"
+
+Tarun@LAPTOP-NK9U8BBT MINGW64 /g/GIT_ASSIGNMENT/Git_training
+$ git config --global user.email "akashmreddy2@gmail.com"
+
+Tarun@LAPTOP-NK9U8BBT MINGW64 /g/GIT_ASSIGNMENT/Git_training
+$ git config --global --list
+user.name=Akash_M_Reddy
+user.email=akashmreddy2@gmail.com
+
+Tarun@LAPTOP-NK9U8BBT MINGW64 /g/GIT_ASSIGNMENT/Git_training
+$ git init
+Initialized empty Git repository in G:/GIT_ASSIGNMENT/Git_training/.git/
+
+Tarun@LAPTOP-NK9U8BBT MINGW64 /g/GIT_ASSIGNMENT/Git_training (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        file1.txt
+        file2.txt
+        file3.txt
+        file4.txt
+        file5.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Tarun@LAPTOP-NK9U8BBT MINGW64 /g/GIT_ASSIGNMENT/Git_training (master)
+$ git add file1.txt
+
+Tarun@LAPTOP-NK9U8BBT MINGW64 /g/GIT_ASSIGNMENT/Git_training (master)
+$ git commit -m "file1.txt committed"
+[master (root-commit) 4ca0113] file1.txt committed
+ 1 file changed, 1 insertion(+)
+ create mode 100644 file1.txt
+
+Tarun@LAPTOP-NK9U8BBT MINGW64 /g/GIT_ASSIGNMENT/Git_training (master)
+$ git log
+commit 4ca01139026f027019d3c4cddf129c7ee8874e6e (HEAD -> master)
+Author: Akash_M_Reddy <akashmreddy2@gmail.com>
+Date:   Wed Jul 13 17:33:49 2022 +0530
+
+    file1.txt committed
+
+Tarun@LAPTOP-NK9U8BBT MINGW64 /g/GIT_ASSIGNMENT/Git_training (master)
+$ git add file2.txt
+
+Tarun@LAPTOP-NK9U8BBT MINGW64 /g/GIT_ASSIGNMENT/Git_training (master)
+$ git commit -m "file2.txt committed"
+[master d009f4d] file2.txt committed
+ 1 file changed, 1 insertion(+)
+ create mode 100644 file2.txt
+
+Tarun@LAPTOP-NK9U8BBT MINGW64 /g/GIT_ASSIGNMENT/Git_training (master)
+$ git add file3.txt
+
+Tarun@LAPTOP-NK9U8BBT MINGW64 /g/GIT_ASSIGNMENT/Git_training (master)
+$ git commit -m "file3.txt committed"
+[master 9b96516] file3.txt committed
+ 1 file changed, 1 insertion(+)
+ create mode 100644 file3.txt
+
+Tarun@LAPTOP-NK9U8BBT MINGW64 /g/GIT_ASSIGNMENT/Git_training (master)
+$ git add file4.txt
+
+Tarun@LAPTOP-NK9U8BBT MINGW64 /g/GIT_ASSIGNMENT/Git_training (master)
+$ git commit -m "file4.txt committed"
+[master 9bca5f7] file4.txt committed
+ 1 file changed, 1 insertion(+)
+ create mode 100644 file4.txt
+
+Tarun@LAPTOP-NK9U8BBT MINGW64 /g/GIT_ASSIGNMENT/Git_training (master)
+$ git add file5.txt
+
+Tarun@LAPTOP-NK9U8BBT MINGW64 /g/GIT_ASSIGNMENT/Git_training (master)
+$ git commit -m "file5.txt committed"
+[master 2f3a489] file5.txt committed
+ 1 file changed, 1 insertion(+)
+ create mode 100644 file5.txt
+
+Tarun@LAPTOP-NK9U8BBT MINGW64 /g/GIT_ASSIGNMENT/Git_training (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Tarun@LAPTOP-NK9U8BBT MINGW64 /g/GIT_ASSIGNMENT/Git_training (master)
+$ git log
+commit 2f3a48930ec715fbdce320c6bf6733d6c886160f (HEAD -> master)
+Author: Akash_M_Reddy <akashmreddy2@gmail.com>
+Date:   Wed Jul 13 17:35:18 2022 +0530
+
+    file5.txt committed
+
+commit 9bca5f7959fcddd544cf2a9d358a40ac6199dff2
+Author: Akash_M_Reddy <akashmreddy2@gmail.com>
+Date:   Wed Jul 13 17:35:01 2022 +0530
+
+    file4.txt committed
+
+commit 9b96516b7e70e610f784d12883933e111c598b2b
+Author: Akash_M_Reddy <akashmreddy2@gmail.com>
+Date:   Wed Jul 13 17:34:45 2022 +0530
+
+    file3.txt committed
+
+commit d009f4d4dae3384d53cdbaa3b90c68b3eccda517
+Author: Akash_M_Reddy <akashmreddy2@gmail.com>
+Date:   Wed Jul 13 17:34:30 2022 +0530
+
+    file2.txt committed
+
+commit 4ca01139026f027019d3c4cddf129c7ee8874e6e
+Author: Akash_M_Reddy <akashmreddy2@gmail.com>
+Date:   Wed Jul 13 17:33:49 2022 +0530
+
+    file1.txt committed
+(END)...skipping...
+commit 2f3a48930ec715fbdce320c6bf6733d6c886160f (HEAD -> master)
+Author: Akash_M_Reddy <akashmreddy2@gmail.com>
+Date:   Wed Jul 13 17:35:18 2022 +0530
+
+    file5.txt committed
+
+commit 9bca5f7959fcddd544cf2a9d358a40ac6199dff2
+Author: Akash_M_Reddy <akashmreddy2@gmail.com>
+Date:   Wed Jul 13 17:35:01 2022 +0530
+
+    file4.txt committed
+
+commit 9b96516b7e70e610f784d12883933e111c598b2b
+Author: Akash_M_Reddy <akashmreddy2@gmail.com>
+Date:   Wed Jul 13 17:34:45 2022 +0530
+
+    file3.txt committed
+
+commit d009f4d4dae3384d53cdbaa3b90c68b3eccda517
+Author: Akash_M_Reddy <akashmreddy2@gmail.com>
+Date:   Wed Jul 13 17:34:30 2022 +0530
+
+    file2.txt committed
+
+commit 4ca01139026f027019d3c4cddf129c7ee8874e6e
+Author: Akash_M_Reddy <akashmreddy2@gmail.com>
+Date:   Wed Jul 13 17:33:49 2022 +0530
+
+    file1.txt committed
+
+Tarun@LAPTOP-NK9U8BBT MINGW64 /g/GIT_ASSIGNMENT/Git_training (master)
+$ git log --oneline
+2f3a489 (HEAD -> master) file5.txt committed
+9bca5f7 file4.txt committed
+9b96516 file3.txt committed
+d009f4d file2.txt committed
+4ca0113 file1.txt committed
+
+Tarun@LAPTOP-NK9U8BBT MINGW64 /g/GIT_ASSIGNMENT/Git_training (master)
+$ git branch -M master
+
+Tarun@LAPTOP-NK9U8BBT MINGW64 /g/GIT_ASSIGNMENT/Git_training (master)
+$ git branch
+* master
+
+Tarun@LAPTOP-NK9U8BBT MINGW64 /g/GIT_ASSIGNMENT/Git_training (master)
+$ git remote add origin https://github.com/AKASH062000/Git_training.git
+
+Tarun@LAPTOP-NK9U8BBT MINGW64 /g/GIT_ASSIGNMENT/Git_training (master)
+$ git push -u origin master
+info: please complete authentication in your browser...
+Enumerating objects: 15, done.
+Counting objects: 100% (15/15), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (15/15), 1.12 KiB | 381.00 KiB/s, done.
+Total 15 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), done.
+To https://github.com/AKASH062000/Git_training.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+Tarun@LAPTOP-NK9U8BBT MINGW64 /g/GIT_ASSIGNMENT/Git_training (master)
+$ git pull https://github.com/AKASH062000/Git_training.git
+From https://github.com/AKASH062000/Git_training
+ * branch            HEAD       -> FETCH_HEAD
+Already up to date.
+
+Tarun@LAPTOP-NK9U8BBT MINGW64 /g/GIT_ASSIGNMENT/Git_training (master)
+$ ls
+file1.txt  file2.txt  file3.txt  file4.txt  file5.txt
+
+Tarun@LAPTOP-NK9U8BBT MINGW64 /g/GIT_ASSIGNMENT/Git_training (master)
+$ git fetch origin master
+From https://github.com/AKASH062000/Git_training
+ * branch            master     -> FETCH_HEAD
+
+Tarun@LAPTOP-NK9U8BBT MINGW64 /g/GIT_ASSIGNMENT/Git_training (master)
+$ git add file1.txt
+
+Tarun@LAPTOP-NK9U8BBT MINGW64 /g/GIT_ASSIGNMENT/Git_training (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   file1.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   file2.txt
+        modified:   file3.txt
+        modified:   file4.txt
+        modified:   file5.txt
+
+
+Tarun@LAPTOP-NK9U8BBT MINGW64 /g/GIT_ASSIGNMENT/Git_training (master)
+$ git commit -m "file1.txt committed and modified"
+[master 08051cf] file1.txt committed and modified
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+Tarun@LAPTOP-NK9U8BBT MINGW64 /g/GIT_ASSIGNMENT/Git_training (master)
+$ git add file2.txt
+
+Tarun@LAPTOP-NK9U8BBT MINGW64 /g/GIT_ASSIGNMENT/Git_training (master)
+$ git commit -m "file2.txt committed and modified"
+[master 92a6263] file2.txt committed and modified
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+Tarun@LAPTOP-NK9U8BBT MINGW64 /g/GIT_ASSIGNMENT/Git_training (master)
+$ git add file3.txt
+
+Tarun@LAPTOP-NK9U8BBT MINGW64 /g/GIT_ASSIGNMENT/Git_training (master)
+$ git commit -m "file3.txt committed and modified"
+[master e9b28a0] file3.txt committed and modified
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+Tarun@LAPTOP-NK9U8BBT MINGW64 /g/GIT_ASSIGNMENT/Git_training (master)
+$ git add file4.txt
+
+Tarun@LAPTOP-NK9U8BBT MINGW64 /g/GIT_ASSIGNMENT/Git_training (master)
+$ git commit -m "file4.txt committed and modified"
+[master b52cefe] file4.txt committed and modified
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+Tarun@LAPTOP-NK9U8BBT MINGW64 /g/GIT_ASSIGNMENT/Git_training (master)
+$ git add file5.txt
+
+Tarun@LAPTOP-NK9U8BBT MINGW64 /g/GIT_ASSIGNMENT/Git_training (master)
+$ git commit -m "file5.txt committed and modified"
+[master 40b619c] file5.txt committed and modified
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+Tarun@LAPTOP-NK9U8BBT MINGW64 /g/GIT_ASSIGNMENT/Git_training (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 5 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Tarun@LAPTOP-NK9U8BBT MINGW64 /g/GIT_ASSIGNMENT/Git_training (master)
+$ git log
+commit 40b619ca01c5aff44311854e72e0e1f0db94e144 (HEAD -> master)
+Author: Akash_M_Reddy <akashmreddy2@gmail.com>
+Date:   Wed Jul 13 18:00:05 2022 +0530
+
+    file5.txt committed and modified
+
+commit b52cefe1d108d8e05ca69fdb0b3733eb1fcb9645
+Author: Akash_M_Reddy <akashmreddy2@gmail.com>
+Date:   Wed Jul 13 17:59:50 2022 +0530
+
+    file4.txt committed and modified
+
+commit e9b28a04693c15d54e144c905b2332aa11c8f0c9
+Author: Akash_M_Reddy <akashmreddy2@gmail.com>
+Date:   Wed Jul 13 17:59:35 2022 +0530
+
+    file3.txt committed and modified
+
+commit 92a626370ed25a4318994f862d566d53f10b06b7
+Author: Akash_M_Reddy <akashmreddy2@gmail.com>
+Date:   Wed Jul 13 17:59:21 2022 +0530
+
+    file2.txt committed and modified
+
+commit 08051cf84e1faf9635d9619e746daabc9f5f7292
+Author: Akash_M_Reddy <akashmreddy2@gmail.com>
+Date:   Wed Jul 13 17:59:00 2022 +0530
+
+    file1.txt committed and modified
+
+commit 2f3a48930ec715fbdce320c6bf6733d6c886160f (origin/master)
+Author: Akash_M_Reddy <akashmreddy2@gmail.com>
+Date:   Wed Jul 13 17:35:18 2022 +0530
+
+    file5.txt committed
+
+commit 9bca5f7959fcddd544cf2a9d358a40ac6199dff2
+Author: Akash_M_Reddy <akashmreddy2@gmail.com>
+Date:   Wed Jul 13 17:35:01 2022 +0530
+
+    file4.txt committed
+
+commit 9b96516b7e70e610f784d12883933e111c598b2b
+Author: Akash_M_Reddy <akashmreddy2@gmail.com>
+Date:   Wed Jul 13 17:34:45 2022 +0530
+
+Tarun@LAPTOP-NK9U8BBT MINGW64 /g/GIT_ASSIGNMENT/Git_training (master)
+$ git log --oneline
+40b619c (HEAD -> master) file5.txt committed and modified
+b52cefe file4.txt committed and modified
+e9b28a0 file3.txt committed and modified
+92a6263 file2.txt committed and modified
+08051cf file1.txt committed and modified
+2f3a489 (origin/master) file5.txt committed
+9bca5f7 file4.txt committed
+9b96516 file3.txt committed
+d009f4d file2.txt committed
+4ca0113 file1.txt committed
+
+Tarun@LAPTOP-NK9U8BBT MINGW64 /g/GIT_ASSIGNMENT/Git_training (master)
+$ git push -u origin master
+Enumerating objects: 21, done.
+Counting objects: 100% (21/21), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (15/15), 1.31 KiB | 670.00 KiB/s, done.
+Total 15 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), done.
+To https://github.com/AKASH062000/Git_training.git
+   2f3a489..40b619c  master -> master
+branch 'master' set up to track 'origin/master'.
+
+Tarun@LAPTOP-NK9U8BBT MINGW64 /g/GIT_ASSIGNMENT/Git_training (master)
+$ git branch Bugfix
+
+Tarun@LAPTOP-NK9U8BBT MINGW64 /g/GIT_ASSIGNMENT/Git_training (master)
+$ git branch
+  Bugfix
+* master
+
+Tarun@LAPTOP-NK9U8BBT MINGW64 /g/GIT_ASSIGNMENT/Git_training (master)
+$ git checkout Bugfix
+Switched to branch 'Bugfix'
+
+Tarun@LAPTOP-NK9U8BBT MINGW64 /g/GIT_ASSIGNMENT/Git_training (Bugfix)
+$ git branch
+* Bugfix
+  master
+
+Tarun@LAPTOP-NK9U8BBT MINGW64 /g/GIT_ASSIGNMENT/Git_training (Bugfix)
+$ git add file1.txt
+
+Tarun@LAPTOP-NK9U8BBT MINGW64 /g/GIT_ASSIGNMENT/Git_training (Bugfix)
+$ git commit -m "file1.txt modified and committed in bugfix branch"
+[Bugfix 04c835a] file1.txt modified and committed in bugfix branch
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+Tarun@LAPTOP-NK9U8BBT MINGW64 /g/GIT_ASSIGNMENT/Git_training (Bugfix)
+$ git status
+On branch Bugfix
+nothing to commit, working tree clean
+
+Tarun@LAPTOP-NK9U8BBT MINGW64 /g/GIT_ASSIGNMENT/Git_training (Bugfix)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+Tarun@LAPTOP-NK9U8BBT MINGW64 /g/GIT_ASSIGNMENT/Git_training (master)
+$ git add file1.txt
+
+Tarun@LAPTOP-NK9U8BBT MINGW64 /g/GIT_ASSIGNMENT/Git_training (master)
+$ git commit -m "file1.txt modified and committed in master branch"
+[master 59eaac3] file1.txt modified and committed in master branch
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+Tarun@LAPTOP-NK9U8BBT MINGW64 /g/GIT_ASSIGNMENT/Git_training (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Tarun@LAPTOP-NK9U8BBT MINGW64 /g/GIT_ASSIGNMENT/Git_training (master)
+$ git merge Bugfix
+Auto-merging file1.txt
+CONFLICT (content): Merge conflict in file1.txt
+Automatic merge failed; fix conflicts and then commit the result.
+
+Tarun@LAPTOP-NK9U8BBT MINGW64 /g/GIT_ASSIGNMENT/Git_training (master|MERGING)
+$ cat file1.txt
+hello there!!
+hi
+<<<<<<< HEAD
+modified for ex 3
+=======
+modified for bugfix
+>>>>>>> Bugfix
+
+Tarun@LAPTOP-NK9U8BBT MINGW64 /g/GIT_ASSIGNMENT/Git_training (master|MERGING)
+$ git push -u origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 337 bytes | 337.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/AKASH062000/Git_training.git
+   40b619c..59eaac3  master -> master
+branch 'master' set up to track 'origin/master'.
+
