@@ -1,3 +1,7 @@
 hello there!!
 hi
+<<<<<<< HEAD
 modified for ex 3
+=======
+modified for bugfix
+>>>>>>> Bugfix
